@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const exphbs = require("express-handlebars");
 const stripe = require("stripe")(
-  "sk_test_51JQQBpHICmjXD3ya3Gd3N2bMFdvx0xD12gEtOJmYLq4t1Y1MtjrXUW2Pk8PHkB3balftTFQeR4SpkSqiBhwJ8GVc00EP1rupbp"
+  "SECRET KEY HERE"
 );
 
 var app = express();
