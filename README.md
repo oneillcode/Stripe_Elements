@@ -10,6 +10,22 @@ Install the necessary packages
 npm install
 ```
 
+Add your Stripe Secret Key to **/app.js**. 
+
+```javascript
+const stripe = require("stripe")(
+  "SECRET KEY HERE"
+);
+```
+
+Add your Stripe Publishable Key to **/public/js/custom.js**.
+
+```javascript
+var stripe = Stripe(
+  "PUBLISHABLE KEY HERE"
+);
+```
+
 Start local server on port 3000
 ```bash
 npm start
