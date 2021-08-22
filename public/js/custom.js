@@ -2,7 +2,7 @@
  * Clientside helper functions
  */
 var stripe = Stripe(
-  "pk_test_51JQQBpHICmjXD3ya501T4LYbTfvBpm1O1F6XpM0tBKbZKv1eDSjMeLNW8HhLBR70wQCa6NIU37vQBw4BoVXTWS5t00opGLkEcA"
+  "PUBLISHABLE KEY HERE"
 );
 
 $(document).ready(function () {
